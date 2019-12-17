@@ -2,21 +2,17 @@
 <html>
 <head>
   <title>Marianne Bjorner</title>
+	<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#DivContent").load("another_file.html"); 
+    });
+  </script> 
 </head>
 
 <body>
-  
-  <div class="navbar">
-		<a href="/" class="logo">Marianne Bjorner</a>
-		<ul class = nav>
-			<li><a href="/about">About</a></li>
-			<li><a href="/resume">Resume</a></li>
-			<li><a href="/projects">Projects and Publications</a></li>
-			<li><a href="/hobbies">Hobbies</a></li>
-			<li><a href="/contact">Contact</a></li>
-		</ul>
-	</div>
-  
+	
+  <div id="DivContent"></div>
   <H1>Marianne Bjorner</H1>
 
   <H3>Test H3</H3>
