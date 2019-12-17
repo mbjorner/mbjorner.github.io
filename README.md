@@ -14,4 +14,6 @@ Plans are currently:
 
 3. Add photos/links
 
-4. Implement CSS?
+4. Put some CSS to work to make it look pretty*
+
+*Might not be very pretty
